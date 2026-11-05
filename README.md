@@ -11,7 +11,7 @@ Yazi's built-in `pdf` previewer renders each page at a fixed 150 DPI and lets Ya
 ## Requirements
 
 - `pdftoppm` and `pdfinfo` (poppler: `brew install poppler`, `apt install poppler-utils`)
-- Yazi 26.9.1 or newer (tested; uses `rt.term.cell_size()` and atomic `fs.rename`)
+- Yazi 25.12.29 or newer — the first release with `rt.term.cell_size()`, which this plugin uses to size the raster to the pane; atomic `fs.rename` and `fs.remove` are older than that. Tested on 26.9.1.
 
 ## Install
 

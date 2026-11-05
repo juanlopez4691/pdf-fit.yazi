@@ -1,4 +1,4 @@
---- @since 26.9.1
+--- @since 25.12.29
 --- Page-fit PDF previewer with pane-matched resolution.
 ---
 --- Yazi's built-in PDF previewer rasterizes at a fixed 150 DPI, so on a large
